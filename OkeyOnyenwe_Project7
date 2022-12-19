@@ -1,0 +1,36 @@
+def calc_inflation(amount,rate,years_to_go):
+    if years_to_go ==0:
+        return amount
+    increase = amount * rate
+    new_amount = amount + increase
+    return calc_inflation(new_amount,rate,years_to_go-1)
+
+def list_reversal():
+     open("students.txt", "r") "as" student_text:
+     lines=student_text.readlines()
+     print(lines):
+
+    for | in lines:
+             as_list = |.split(",")
+             time.append(as_list[0])
+             percentage.append(as_list[1])
+             years.append(as_list[2])
+    print(time)
+    print(percentage)
+    print(years)
+
+
+ def Triangle():
+     x = (raw_input("how big should the triangle(t):")).lower()
+     if x== 't'
+         return x[0]
+         return Triangle()
+     else:
+         print "50 meters wide, 20 meters long"
+         Triangle() #while loop
+
+ print(player1())
+
+
+
+
